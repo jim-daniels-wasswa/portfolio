@@ -26,23 +26,25 @@ It features a modern dark/light theme toggle, smooth transitions, and a fully re
 ## 🧭 Project Structure
 
 app/
-components/
-common/
-layout/
-sections/
-HeroSection.jsx
-AboutSection.jsx
-SkillsSection.jsx
-ExperienceSection.jsx
-ContactSection.jsx
-layout.js
-page.jsx
-
+ ├─ components/
+ │   ├─ AboutSection.jsx
+ │   ├─ AnimatedBackground.jsx
+ │   ├─ ContactSection.jsx
+ │   ├─ ExperienceSection.jsx
+ │   ├─ Footer.jsx
+ │   ├─ Header.jsx
+ │   ├─ HeroSection.jsx
+ │   ├─ SkillsSection.jsx
+ │
+ ├─ layout.js
+ ├─ page.jsx
+ │
 lib/
 public/
-images/
+ ├─ images/
 styles/
-globals.css
+ ├─ globals.css
+
 
 ---
 
