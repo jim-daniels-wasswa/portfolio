@@ -4,7 +4,7 @@ const AboutSection = () => {
     const stats = [
         { value: "6+", label: "Years", icon: "⚡" },
         { value: "20+", label: "Projects", icon: "🚀" },
-        { value: "3", label: "Companies", icon: "🏢" },
+        { value: "4", label: "Companies", icon: "🏢" },
         { value: "7+", label: "Mentored", icon: "🎓" },
     ];
 
