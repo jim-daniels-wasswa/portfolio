@@ -1,6 +1,5 @@
-// components/HeroSection.jsx
+import { Download, Rocket, Sparkles } from 'lucide-react';
 import React, { useEffect, useRef, useState } from 'react';
-import { Rocket, Sparkles } from 'lucide-react';
 
 const HeroSection = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -54,6 +53,14 @@ const HeroSection = () => {
               <Rocket size={20} className="group-hover:rotate-45 transition-transform" />
               Let's Connect
             </button>
+             <a
+                  href="/assets/Jim_Daniels_Wasswa_Resume.pdf"
+                  download="Jim_Daniels_Wasswa_Resume.pdf"
+                  className="group px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2"
+                >
+                  <Download size={20} className="group-hover:translate-y-1 transition-transform" />
+                  Download Resume
+                </a>
             <a
               href="https://linkedin.com/in/jimdanielswasswa"
               target="_blank"

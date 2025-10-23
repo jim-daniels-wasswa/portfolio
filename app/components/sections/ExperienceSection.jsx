@@ -1,6 +1,5 @@
 import { Briefcase, Zap } from 'lucide-react';
 
-// components/ExperienceSection.jsx
 import React from 'react';
 
 const ExperienceSection = () => {
