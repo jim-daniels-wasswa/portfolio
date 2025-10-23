@@ -4,40 +4,52 @@ import React from 'react';
 
 const ExperienceSection = () => {
   const jobs = [
-    {
-      company: 'Deriv Sdn Bhd',
-      period: 'Apr 2022 – Current',
-      role: 'Senior Front-End Developer',
-      color: 'from-purple-500 to-sky-500',
-      achievements: [
-        'Engineered core enhancements to a custom Flutter chart library, reducing feature testing time by 40%',
-        'Automated theming and rebranding, cutting manual work from days to a single merge-ready PR',
-        'Led migration to TypeScript and enforced linting for maintainability',
-        'Spearheaded releases of Deriv\'s main system (app.deriv.com)'
-      ]
-    },
-    {
-      company: 'Integrated Intelligent Computer System Technologies',
-      period: 'Jan 2019 – Jan 2020',
-      role: 'Full-Stack Software Developer',
-      color: 'from-blue-500 to-purple-500',
-      achievements: [
-        'Built real-time medication tracking systems, reducing errors by 50% in 20+ government hospitals',
-        'Led a 9-member dev team and mentored 7 interns',
-        'Eliminated race conditions in Java Spring with object-level locking'
-      ]
-    },
-    {
-      company: 'Crystal Clear Software Ltd',
-      period: 'Jul 2017 – Dec 2018',
-      role: 'Computer Programmer',
-      color: 'from-sky-500 to-blue-500',
-      achievements: [
-        'Reduced login time by 83% by removing in-memory cursors',
-        'Migrated legacy FoxPro system to C# ASP.NET Webforms',
-        'Improved user experience through systematic bug fixing'
-      ]
-    }
+      {
+          company: "Deriv Sdn Bhd",
+          period: "Apr 2022 – Current",
+          role: "Senior Front-End Developer",
+          color: "from-purple-500 to-sky-500",
+          achievements: [
+              "Engineered core enhancements to a custom Flutter chart library, reducing feature testing time by 40%",
+              "Automated theming and rebranding, cutting manual work from days to a single merge-ready PR",
+              "Led migration to TypeScript and enforced linting for maintainability",
+              "Spearheaded releases of Deriv's main system (app.deriv.com)",
+          ],
+      },
+      {
+          company: "War Child Holland",
+          period: "Apr 2021 – Feb 2022",
+          role: "IT Assistant",
+          color: "from-purple-500 to-sky-500",
+          achievements: [
+              "Provided technical support for IT assets, including laptops, tablets, and printers.",
+              "Managed and tracked IT asset inventory across departments.",
+              "Developed workflow automation using Microsoft Power Automate to improve efficiency.",
+              "Delivered basic IT and digital literacy training for non-technical staff.",
+          ],
+      },
+      {
+          company: "Integrated Intelligent Computer System Technologies",
+          period: "Jan 2019 – Jan 2020",
+          role: "Full-Stack Software Developer",
+          color: "from-blue-500 to-purple-500",
+          achievements: [
+              "Built real-time medication tracking systems, reducing errors by 50% in 20+ government hospitals",
+              "Led a 9-member dev team and mentored 7 interns",
+              "Eliminated race conditions in Java Spring with object-level locking",
+          ],
+      },
+      {
+          company: "Crystal Clear Software Ltd",
+          period: "Jul 2017 – Dec 2018",
+          role: "Computer Programmer",
+          color: "from-sky-500 to-blue-500",
+          achievements: [
+              "Reduced login time by 83% by removing in-memory cursors",
+              "Migrated legacy FoxPro system to C# ASP.NET Webforms",
+              "Improved user experience through systematic bug fixing",
+          ],
+      },
   ];
 
   return (
